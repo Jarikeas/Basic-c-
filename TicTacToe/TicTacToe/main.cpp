@@ -37,13 +37,13 @@ struct GameField
 
 void PrintField(GameField& rg)
 {
-    std::cout << "Y | ";
+    std::cout << "y/x ";
     
     for(size_t j = 0; j < rg.sizeX; j++)
     {
         std::cout << j + 1 << "   ";
     }
-    std::cout << "X" << std::endl;
+    std::cout << std::endl;
     
     for(size_t i = 0; i < rg.sizeY; i++)
     {
