@@ -1,2 +1,2 @@
-#  Basic C++
-TicTAcToe game
+#Basic C++
+TicTacToe game
